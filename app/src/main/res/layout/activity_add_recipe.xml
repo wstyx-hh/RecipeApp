@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_4"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/recipeNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:hint="Recipe Name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textCursorDrawable="@drawable/custom_cursor" />
+
+    <EditText
+        android:id="@+id/recipeIngredientsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingredients"
+        android:backgroundTint="@color/pink"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textCursorDrawable="@drawable/custom_cursor" />
+
+
+    <EditText
+        android:id="@+id/recipeInstructionsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Instructions"
+        android:backgroundTint="@color/pink"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textCursorDrawable="@drawable/custom_cursor" />
+
+
+    <Button
+        android:id="@+id/saveRecipeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Recipe"
+        android:backgroundTint="@color/pink"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
